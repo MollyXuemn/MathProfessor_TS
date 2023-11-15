@@ -9,11 +9,11 @@ describe('getWeekStatus', () => {
             [1, 2, 3, 4, 5],
         ];
         const result = getWeekStatus(3, weekTimes);
-        expect(result).toBe("33.33%")
+        expect(result).toBe("33.33%");
     });
 
     test('should handle an empty week schedule', () => {
         const result = getWeekStatus(3, []);
-        expect(result).toBe('0.00%');
+        expect(result).toBe("0.00%");
     });
 });
