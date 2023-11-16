@@ -5,7 +5,7 @@ describe('getWeekStatus', () => {
     test('should calculate the percentage of cancelled classes in the week', () => {
         const weekTimes = [
             [-2, -1, 0, 1, 2],
-            [-2, -1, 0, 1, 2],
+            [-2, -2, 0, 1, 2],
             [1, 2, 3, 4, 5],
         ];
         const result = getWeekStatus(3, weekTimes);
