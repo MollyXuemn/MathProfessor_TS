@@ -18,8 +18,12 @@ This is a class check application that allows you to determine whether a class h
    ```shell
    git clone git@github.com:MollyXuemn/MathProfessor_TS.git
    ```
+2. Build the project
+    ```shell
+   npm install
+   ```
 
-2. Install Jest (With VSCode)
+3. Install Jest (With VSCode)
     
     You can install Jest using your favorite package manager:
     ```shell
